@@ -1,11 +1,84 @@
-# Real Estate Repository - Only essential files
+# Real Estate Repository - Essential files only
+# Python
 __pycache__/
-*.pyc
-.DS_Store
-.ipynb_checkpoints/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Data files - exclude all data files
 *.csv
 *.xlsx
-*.pdf
+*.xls
+*.json
+*.xml
+*.html
+
+# Images and media
 *.png
 *.jpg
-*.zip
+*.jpeg
+*.gif
+*.pdf
+*.kml
+*.geojson
+
+# Cache directories
+.analysis_cache/
+.backup_files/
+.data_cache/
+.map_cache/
+.temp_files/
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Conda environment
+.conda/
+
+# External projects
+../Manim/
+../introToDataScience-main/
+../NYC_Jobs.csv
+../transition_matrix.xlsx
+../turn_n.xlsx
+../workshop-chihuahua-vs-muffin-master.zip
+
+# Only track these essential files:
+# - Python scripts (.py)
+# - Jupyter notebooks (.ipynb)
+# - README files
+# - This .gitignore
