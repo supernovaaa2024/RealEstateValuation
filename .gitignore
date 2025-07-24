@@ -1,0 +1,11 @@
+# Real Estate Repository - Only essential files
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+*.csv
+*.xlsx
+*.pdf
+*.png
+*.jpg
+*.zip
